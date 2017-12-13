@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+	<h3>인덱스 페이지 입니다.</h3>
+	<ul>
+		<!--  상대경로 이동 -->
+		<li><a href="gura.html">구라 페이지로 이동</a></li>
+		<!--  절대경로 이동 -->
+		<li><a href="/HelloServer/gura.html">구라 페이지로 이동2</a></li>
+		<!--  /HelloServer 는 context path or context name -->
+		<li><a href="sub/another.html">또 다른 페이지로 이동</a></li>
+		<li><a href="hello">hello~</a></li>
+		<li><a href="isReady">isReady?</a></li>
+	</ul>
+	<label for="num">번호</label>
+	<input type="text" id="num" name="num" />
+	<label for="name">이름</label>
+	<input type="text" id="name" name="name" />
+	<label for="addr">주소</label>
+	<input type="text" id="addr" name="addr" /> <br />
+	<button id="search">검색</button>
+	<button id="insert">삽입</button>
+	<button id="delete">삭제</button>
+	<button id="update">변경</button>
+</body>
+</html>
